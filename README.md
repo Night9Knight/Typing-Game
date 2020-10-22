@@ -29,8 +29,8 @@ The coding concept:
   - If the all of the characters are matched successfully, effect sound will be played, score counter will be incremented by 1, another random word will be assigned and previous step is repeated.
   
 6) If the timer reach 0:
-   - The word assigned will be removed.
-   - Timer reset to default value (20 seconds in this case)
-   - Score reset to 0.
-   - Background music is paused.
-   - The button is enabled.
+  - The word assigned will be removed.
+  - Timer reset to default value (20 seconds in this case)
+  - Score reset to 0.
+  - Background music is paused.
+  - The button is enabled.
