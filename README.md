@@ -1,7 +1,7 @@
 # Typing-Game
 Created with CodeSandbox
 
-Access it @ https://night9knight.github.io/Typing-Game/
+Access it @ https://night9knight.github.io/
 
 Programming Concept:
 
