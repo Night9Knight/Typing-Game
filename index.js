@@ -43,6 +43,7 @@ function countDown() {
 
 function randomWord() {
   words.innerHTML = "";
+  //Pick random words from the list
   let random = Math.floor(Math.random() * (999 + 1)) + 0;
   let word = wordList[random].trim().split("");
   for (let i = 0; i < word.length; i++) {
@@ -52,15 +53,16 @@ function randomWord() {
     span.innerHTML = word[i];
     words.appendChild(span);
   }
+  //Get hold of an array of characters' span to be matched
   spans = document.querySelectorAll(".span");
 }
 
+//Load a list of words from the text file
 function loadWordsFromFile() {
   fetch("words.txt")
     .then((response) => response.text())
     .then((data) => {
       wordList = data.split("\n");
-      //console.log(wordList);
     });
 }
 
@@ -92,6 +94,7 @@ function typing(e) {
       correct_music.pause();
       correct_music.currentTime = 0;
       correct_music.play();
+      //Animation for correct words
       $(".words").fadeOut();
       $(".words").fadeIn();
       score++; // increment the points
