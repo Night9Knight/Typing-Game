@@ -1,0 +1,108 @@
+body {
+  text-align: center;
+  background-color: #fce2ce;
+}
+
+.heading {
+  background-color: #d9adad;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-family: "Grandstander", cursive;
+  color: #c26565;
+  font-size: 80px;
+}
+
+.abc {
+  border-radius: 100%;
+  width: 15%;
+  height: 15%;
+  position: absolute;
+  right: 10px;
+}
+
+.abc2 {
+  border-radius: 100%;
+  width: 15%;
+  height: 15%;
+  position: absolute;
+  left: 10px;
+  bottom: 25px;
+}
+
+h1:hover {
+  color: #ff4b5c;
+}
+
+.outline {
+  border-radius: 25px;
+  border: 8px solid #b80d57;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 40px;
+}
+.medium-heading {
+  /* font-family: "Indie Flower", cursive; */
+  font-family: "Concert One", cursive;
+  color: #31112c;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #d9adad;
+  border-width: 5px;
+  width: 5%;
+}
+
+.start {
+  /* font-family: "Chilanka", cursive;
+  font-family: "Montserrat Alternates", sans-serif; */
+  font-family: "Concert One", cursive;
+  font-weight: 30px;
+  margin: 20px;
+}
+
+.btn {
+  margin: 20px;
+  border: solid;
+}
+
+.box-score {
+  display: inline-block;
+  margin: 10px 60px;
+  color: #ff4b5c;
+  /* background-color: #c26565; */
+}
+
+.score1 {
+  font-family: "Concert One", cursive;
+}
+
+.time-left {
+  font-family: "Concert One", cursive;
+  display: inline-block;
+  margin: 10px 40px;
+  color: #ff4b5c;
+}
+
+.bg {
+  background-color: #04af71;
+}
+
+.words span {
+  font-size: 60px;
+  letter-spacing: 1px;
+  color: #3c4446;
+}
+
+.end-heading {
+  font-family: "Grandstander", cursive;
+  background-color: #d9adad;
+  color: #c26565;
+  font-size: 80px;
+}
