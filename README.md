@@ -1,6 +1,8 @@
 # Typing-Game
 Created with CodeSandbox
 
+Access it @ https://night9knight.github.io/Typing-Game/
+
 Programming Concept:
 
 So, we use html and  direct it with css and javasvript. We use some font and images from Google Font and FontAwesome. 
